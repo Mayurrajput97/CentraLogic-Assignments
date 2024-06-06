@@ -129,7 +129,7 @@ class ProductTile extends StatelessWidget {
         );
       },
       child: Container(
-        width: MediaQuery.of(context).size.width * 0.4,
+        width: MediaQuery.of(context).size.width * 0.3,
         padding: EdgeInsets.all(8),
         child: Card(
           elevation: 5,
