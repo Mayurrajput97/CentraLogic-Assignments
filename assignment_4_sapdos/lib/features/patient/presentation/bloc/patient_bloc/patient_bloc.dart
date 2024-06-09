@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:practice_work/features/patient/data/respository/doctor_repository.dart';
-import 'package:practice_work/features/patient/presentation/bloc/doctor_event.dart';
-import 'package:practice_work/features/patient/presentation/bloc/doctor_state.dart';
+import 'package:practice_work/features/patient/presentation/bloc/patient_bloc/patient_event.dart';
+import 'package:practice_work/features/patient/presentation/bloc/patient_bloc/patient_state.dart';
 
 class DoctorBloc extends Bloc<DoctorEvent, DoctorState> {
   final DoctorRepository doctorRepository;
