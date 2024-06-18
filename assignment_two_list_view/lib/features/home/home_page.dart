@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'product_details_page.dart';
-import 'product.dart';
+import '../product/product_details_page.dart';
+import '../../product.dart';
 
 class HomePage extends StatelessWidget {
   final List<Product> productList = [
